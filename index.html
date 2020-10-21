@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html>
         <head>
-               <meta charset="utf-8" />
-               <meta name="viewport" content="width=device-width, initail-scale=1">
-               <title>webpage title yoyo</title>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initail-scale=1">
+                <title>webpage title yoyo</title>
         <head>
         <body>
-            <script type="text/javascript">
-                alert("请认真听讲！！");
-            </script>
-            <h1>这是一个标题的标签,可以变大加粗</h1>
-            <h2>这是一个标题的标签</h2>
-            <h3>这是一个标题的标签</h3>
-            <h4>这是一个标题的标签</h4>
-            <h5>这是一个标题的标签</h5>
-            <h6>这是一个标题的标签</h6>
-            <i>斜体标签</i>
-            <hr>
-            <!--hr会出现一个横线把标题和内容分开-->
-            <p> hello，world！</p>
-            <p> p means paragraph </p>
-            <p>p是换行标签，<br> br是可以强行换行的标签,<b>b是一个可以加粗的标签</b></p>
-            <p>空格智能识别一个，若要打多个空格，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 代表一个空格</p>
-            <!--here's comments-->
+                <script language = JavaScript>
+                        function password() {
+                        var testV = 1;
+                        var pass1 = prompt('请输入密码:', '');
+                        while (testV < 3) {
+                            if (!pass1) history.go(-1);
+                            if (pass1 == "123456") {
+                                alert('密码正确!');
+                                break;
+                            }
+                            testV += -1;
+                            var pass1 = prompt('密码错误!请重新输入:');
+                        }
+                        if (pass1 != "password" & testV == 3) history.go(-1);
+                        return " ";
+                        }
+                        document.write(password());
+                </script>
+                <h1>这是一个标题的标签,可以变大加粗</h1>
+                <h2>这是一个标题的标签</h2>
+                <h3>这是一个标题的标签</h3>
+                <h4>这是一个标题的标签</h4>
+                <h5>这是一个标题的标签</h5>
+                <h6>这是一个标题的标签</h6>
+                <i>斜体标签</i>
+                <hr>
+                <!--hr会出现一个横线把标题和内容分开-->
+                <p> hello，world！</p>
+                <p> p means paragraph </p>
+                <p>p是换行标签，<br> br是可以强行换行的标签,<b>b是一个可以加粗的标签</b></p>
+                <p>空格智能识别一个，若要打多个空格，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 代表一个空格</p>
+                <!--here's comments-->
         <body>
 <html>
