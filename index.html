@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>噔噔噔咿呀的博客</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8" />
+    <title>噔噔噔咿呀的博客</title>
+</head>
+
+<body>
+    <script src="/js/password.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <li id="title" @click="doIt">
         <a href="/课件脚本/课件脚本.html">课件脚本</a>
-    </body>
+    </li>
+    <script>
+        var title = new Vue({
+            el：“#title”，
+            methods：{
+            doIt: password()
+        },
+            })
+    </script>
+</body>
 <html>
