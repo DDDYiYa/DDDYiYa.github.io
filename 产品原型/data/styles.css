@@ -12,7 +12,11 @@
 }
 .box_1 {
 }
+.shape {
+}
 .image {
+}
+.button {
 }
 .heading_1 {
   font-family:'Arial Normal', 'Arial', sans-serif;
@@ -64,6 +68,10 @@
 }
 .line {
 }
+.text_field {
+  color:#000000;
+  text-align:left;
+}
 .droplist {
   color:#000000;
   text-align:left;
@@ -71,6 +79,14 @@
 .list_box {
   color:#000000;
   text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+.tree_node {
+  text-align:left;
+}
+.menu_item {
 }
 .form_hint {
   color:#999999;
